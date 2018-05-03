@@ -26,6 +26,7 @@
 		5A3CEDDB209B052100933957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A3CEDDD209B052100933957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A3CEDDE209B052100933957 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A3CEDE7209B0A3B00933957 /* CommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		5A3CEDCE209B052000933957 /* FEIICollectionToolObj */ = {
 			isa = PBXGroup;
 			children = (
+				5A3CEDE5209B09DF00933957 /* Macro */,
 				5A3CEDCF209B052000933957 /* AppDelegate.h */,
 				5A3CEDD0209B052000933957 /* AppDelegate.m */,
 				5A3CEDD2209B052100933957 /* ViewController.h */,
@@ -69,6 +71,14 @@
 				5A3CEDDE209B052100933957 /* main.m */,
 			);
 			path = FEIICollectionToolObj;
+			sourceTree = "<group>";
+		};
+		5A3CEDE5209B09DF00933957 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				5A3CEDE7209B0A3B00933957 /* CommonMacro.h */,
+			);
+			path = Macro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
