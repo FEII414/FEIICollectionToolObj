@@ -25,6 +25,17 @@
 		A565071D209B50170002C5D5 /* UIButton+ImageWithLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5650713209B50170002C5D5 /* UIButton+ImageWithLabel.m */; };
 		A565071E209B50170002C5D5 /* NSString+CQFontSzie.m in Sources */ = {isa = PBXBuildFile; fileRef = A5650714209B50170002C5D5 /* NSString+CQFontSzie.m */; };
 		A5650721209B50460002C5D5 /* GetDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A565071F209B50460002C5D5 /* GetDateModel.m */; };
+		A56508AA209B53210002C5D5 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = A565088D209B531B0002C5D5 /* pinyin.c */; };
+		A56508AB209B53210002C5D5 /* CQBaseMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = A5650891209B531C0002C5D5 /* CQBaseMethod.m */; };
+		A56508AC209B53210002C5D5 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = A565089A209B531D0002C5D5 /* Account.m */; };
+		A56508AD209B53210002C5D5 /* NetworkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A565089B209B531D0002C5D5 /* NetworkUtils.m */; };
+		A56508AE209B53210002C5D5 /* NSString+NSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = A565089C209B531D0002C5D5 /* NSString+NSDate.m */; };
+		A56508AF209B53210002C5D5 /* PinyinIndexUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A565089F209B531E0002C5D5 /* PinyinIndexUtil.m */; };
+		A56508B0209B53210002C5D5 /* UserSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A56508A1209B531E0002C5D5 /* UserSession.m */; };
+		A56508B1209B53210002C5D5 /* CQHTTPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A56508A2209B531E0002C5D5 /* CQHTTPTool.m */; };
+		A56508B2209B53210002C5D5 /* ChineseString.m in Sources */ = {isa = PBXBuildFile; fileRef = A56508A3209B531F0002C5D5 /* ChineseString.m */; };
+		A56508B3209B53210002C5D5 /* FEIDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A56508A8209B53200002C5D5 /* FEIDatabaseManager.m */; };
+		A56508B4209B53210002C5D5 /* UITableView+Improve.m in Sources */ = {isa = PBXBuildFile; fileRef = A56508A9209B53200002C5D5 /* UITableView+Improve.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +74,35 @@
 		A5650715209B50170002C5D5 /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
 		A565071F209B50460002C5D5 /* GetDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetDateModel.m; sourceTree = "<group>"; };
 		A5650720209B50460002C5D5 /* GetDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetDateModel.h; sourceTree = "<group>"; };
+		A565088D209B531B0002C5D5 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		A565088E209B531B0002C5D5 /* CQDetalisAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQDetalisAttribute.h; sourceTree = "<group>"; };
+		A565088F209B531B0002C5D5 /* UITableView+Improve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Improve.h"; sourceTree = "<group>"; };
+		A5650890209B531C0002C5D5 /* CQHTTPTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQHTTPTool.h; sourceTree = "<group>"; };
+		A5650891209B531C0002C5D5 /* CQBaseMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQBaseMethod.m; sourceTree = "<group>"; };
+		A5650892209B531C0002C5D5 /* AuthDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthDelegate.h; sourceTree = "<group>"; };
+		A5650893209B531C0002C5D5 /* FEIDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEIDatabaseManager.h; sourceTree = "<group>"; };
+		A5650894209B531C0002C5D5 /* DebugConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugConstant.h; sourceTree = "<group>"; };
+		A5650895209B531C0002C5D5 /* NetworkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkUtils.h; sourceTree = "<group>"; };
+		A5650896209B531C0002C5D5 /* UIConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIConstant.h; sourceTree = "<group>"; };
+		A5650897209B531D0002C5D5 /* PinyinIndexUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinIndexUtil.h; sourceTree = "<group>"; };
+		A5650898209B531D0002C5D5 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		A5650899209B531D0002C5D5 /* ApiConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiConstant.h; sourceTree = "<group>"; };
+		A565089A209B531D0002C5D5 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		A565089B209B531D0002C5D5 /* NetworkUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkUtils.m; sourceTree = "<group>"; };
+		A565089C209B531D0002C5D5 /* NSString+NSDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSDate.m"; sourceTree = "<group>"; };
+		A565089D209B531E0002C5D5 /* CQBaseMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQBaseMethod.h; sourceTree = "<group>"; };
+		A565089E209B531E0002C5D5 /* KeyConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyConstant.h; sourceTree = "<group>"; };
+		A565089F209B531E0002C5D5 /* PinyinIndexUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinIndexUtil.m; sourceTree = "<group>"; };
+		A56508A0209B531E0002C5D5 /* StatusAndType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusAndType.h; sourceTree = "<group>"; };
+		A56508A1209B531E0002C5D5 /* UserSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSession.m; sourceTree = "<group>"; };
+		A56508A2209B531E0002C5D5 /* CQHTTPTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQHTTPTool.m; sourceTree = "<group>"; };
+		A56508A3209B531F0002C5D5 /* ChineseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseString.m; sourceTree = "<group>"; };
+		A56508A4209B531F0002C5D5 /* ChineseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseString.h; sourceTree = "<group>"; };
+		A56508A5209B531F0002C5D5 /* UserSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSession.h; sourceTree = "<group>"; };
+		A56508A6209B53200002C5D5 /* NSString+NSDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSDate.h"; sourceTree = "<group>"; };
+		A56508A7209B53200002C5D5 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		A56508A8209B53200002C5D5 /* FEIDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEIDatabaseManager.m; sourceTree = "<group>"; };
+		A56508A9209B53200002C5D5 /* UITableView+Improve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Improve.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +161,7 @@
 		A56506F8209B4C2F0002C5D5 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				A565088C209B53030002C5D5 /* Common */,
 				A5650703209B50170002C5D5 /* Gategroy */,
 				A56506FC209B4F640002C5D5 /* DateUtils */,
 				A56506F9209B4D7E0002C5D5 /* FEIISegementView.h */,
@@ -163,6 +204,42 @@
 				A5650715209B50170002C5D5 /* UIViewController+BackButtonHandler.h */,
 			);
 			path = Gategroy;
+			sourceTree = "<group>";
+		};
+		A565088C209B53030002C5D5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A56508A7209B53200002C5D5 /* Account.h */,
+				A565089A209B531D0002C5D5 /* Account.m */,
+				A5650899209B531D0002C5D5 /* ApiConstant.h */,
+				A5650892209B531C0002C5D5 /* AuthDelegate.h */,
+				A56508A4209B531F0002C5D5 /* ChineseString.h */,
+				A56508A3209B531F0002C5D5 /* ChineseString.m */,
+				A565089D209B531E0002C5D5 /* CQBaseMethod.h */,
+				A5650891209B531C0002C5D5 /* CQBaseMethod.m */,
+				A565088E209B531B0002C5D5 /* CQDetalisAttribute.h */,
+				A5650890209B531C0002C5D5 /* CQHTTPTool.h */,
+				A56508A2209B531E0002C5D5 /* CQHTTPTool.m */,
+				A5650894209B531C0002C5D5 /* DebugConstant.h */,
+				A5650893209B531C0002C5D5 /* FEIDatabaseManager.h */,
+				A56508A8209B53200002C5D5 /* FEIDatabaseManager.m */,
+				A565089E209B531E0002C5D5 /* KeyConstant.h */,
+				A5650895209B531C0002C5D5 /* NetworkUtils.h */,
+				A565089B209B531D0002C5D5 /* NetworkUtils.m */,
+				A56508A6209B53200002C5D5 /* NSString+NSDate.h */,
+				A565089C209B531D0002C5D5 /* NSString+NSDate.m */,
+				A565088D209B531B0002C5D5 /* pinyin.c */,
+				A5650898209B531D0002C5D5 /* pinyin.h */,
+				A5650897209B531D0002C5D5 /* PinyinIndexUtil.h */,
+				A565089F209B531E0002C5D5 /* PinyinIndexUtil.m */,
+				A56508A0209B531E0002C5D5 /* StatusAndType.h */,
+				A5650896209B531C0002C5D5 /* UIConstant.h */,
+				A565088F209B531B0002C5D5 /* UITableView+Improve.h */,
+				A56508A9209B53200002C5D5 /* UITableView+Improve.m */,
+				A56508A5209B531F0002C5D5 /* UserSession.h */,
+				A56508A1209B531E0002C5D5 /* UserSession.m */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,20 +313,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A56508B3209B53210002C5D5 /* FEIDatabaseManager.m in Sources */,
+				A56508AA209B53210002C5D5 /* pinyin.c in Sources */,
 				A5650717209B50170002C5D5 /* UIViewController+BackButtonHandler.m in Sources */,
 				A5650716209B50170002C5D5 /* UIView+Util.m in Sources */,
+				A56508AD209B53210002C5D5 /* NetworkUtils.m in Sources */,
 				5A3CEDD4209B052100933957 /* ViewController.m in Sources */,
 				A5650702209B4F640002C5D5 /* GetSystemDate.m in Sources */,
+				A56508B1209B53210002C5D5 /* CQHTTPTool.m in Sources */,
+				A56508AE209B53210002C5D5 /* NSString+NSDate.m in Sources */,
+				A56508B2209B53210002C5D5 /* ChineseString.m in Sources */,
 				A56506FB209B4D7E0002C5D5 /* FEIISegementView.m in Sources */,
 				5A3CEDDF209B052100933957 /* main.m in Sources */,
 				A5650718209B50170002C5D5 /* NSString+RetbitString.m in Sources */,
 				A565071E209B50170002C5D5 /* NSString+CQFontSzie.m in Sources */,
+				A56508AC209B53210002C5D5 /* Account.m in Sources */,
 				A565071C209B50170002C5D5 /* NSString+Utils.m in Sources */,
 				A565071A209B50170002C5D5 /* UIImage+Util.m in Sources */,
 				A565071B209B50170002C5D5 /* UIColor+Util.m in Sources */,
+				A56508AF209B53210002C5D5 /* PinyinIndexUtil.m in Sources */,
 				A5650719209B50170002C5D5 /* UIView+MJ.m in Sources */,
+				A56508AB209B53210002C5D5 /* CQBaseMethod.m in Sources */,
 				5A3CEDD1209B052000933957 /* AppDelegate.m in Sources */,
+				A56508B0209B53210002C5D5 /* UserSession.m in Sources */,
 				A5650721209B50460002C5D5 /* GetDateModel.m in Sources */,
+				A56508B4209B53210002C5D5 /* UITableView+Improve.m in Sources */,
 				A565071D209B50170002C5D5 /* UIButton+ImageWithLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
