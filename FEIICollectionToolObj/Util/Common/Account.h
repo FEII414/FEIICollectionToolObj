@@ -1,15 +1,16 @@
+////
+////  Account.h
+////  dploffice
+////
+////  Created by shine-team1 on 16/3/22.
+////  Copyright © 2016年 com. All rights reserved.
+////
 //
-//  Account.h
-//  dploffice
+//#import <Foundation/Foundation.h>
 //
-//  Created by shine-team1 on 16/3/22.
-//  Copyright © 2016年 com. All rights reserved.
+//@interface Account : NSObject
 //
+//@property (nonatomic, assign) CGFloat alpha;
+//
+//@end
 
-#import <Foundation/Foundation.h>
-
-@interface Account : NSObject
-
-@property (nonatomic, assign) CGFloat alpha;
-
-@end

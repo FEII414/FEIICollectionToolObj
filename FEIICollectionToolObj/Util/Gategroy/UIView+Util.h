@@ -1,23 +1,24 @@
+////
+////  UIView+Util.h
+////  iosapp
+////
+////  Created by chenhaoxiang on 14-10-17.
+////  Copyright (c) 2014年 oschina. All rights reserved.
+////
 //
-//  UIView+Util.h
-//  iosapp
+//#import <UIKit/UIKit.h>
 //
-//  Created by chenhaoxiang on 14-10-17.
-//  Copyright (c) 2014年 oschina. All rights reserved.
+//@interface UIView (Util)
 //
+//- (void)setCornerRadius:(CGFloat)cornerRadius;
+//- (void)setBorderWidth:(CGFloat)width andColor:(UIColor *)color;
+//
+//- (UIImage *)convertViewToImage;
+//- (UIImage *)updateBlur;
+//
+//- (void) tapHideKeyBoard;
+//
+//- (void) scrollHideKeyBoard;
+//
+//@end
 
-#import <UIKit/UIKit.h>
-
-@interface UIView (Util)
-
-- (void)setCornerRadius:(CGFloat)cornerRadius;
-- (void)setBorderWidth:(CGFloat)width andColor:(UIColor *)color;
-
-- (UIImage *)convertViewToImage;
-- (UIImage *)updateBlur;
-
-- (void) tapHideKeyBoard;
-
-- (void) scrollHideKeyBoard;
-
-@end

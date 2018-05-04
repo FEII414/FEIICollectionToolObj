@@ -13,6 +13,7 @@
 		5A3CEDD9209B052100933957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A3CEDD8209B052100933957 /* Assets.xcassets */; };
 		5A3CEDDC209B052100933957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3CEDDA209B052100933957 /* LaunchScreen.storyboard */; };
 		5A3CEDDF209B052100933957 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3CEDDE209B052100933957 /* main.m */; };
+		5AF8E39E209C5DDB00EDCB6E /* WSWScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8E39D209C5DDB00EDCB6E /* WSWScrollView.m */; };
 		A56506FB209B4D7E0002C5D5 /* FEIISegementView.m in Sources */ = {isa = PBXBuildFile; fileRef = A56506FA209B4D7E0002C5D5 /* FEIISegementView.m */; };
 		A5650702209B4F640002C5D5 /* GetSystemDate.m in Sources */ = {isa = PBXBuildFile; fileRef = A56506FF209B4F640002C5D5 /* GetSystemDate.m */; };
 		A5650716209B50170002C5D5 /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = A5650709209B50170002C5D5 /* UIView+Util.m */; };
@@ -50,6 +51,8 @@
 		5A3CEDDD209B052100933957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A3CEDDE209B052100933957 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5A3CEDE7209B0A3B00933957 /* CommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
+		5AF8E39C209C5DDB00EDCB6E /* WSWScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSWScrollView.h; sourceTree = "<group>"; };
+		5AF8E39D209C5DDB00EDCB6E /* WSWScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSWScrollView.m; sourceTree = "<group>"; };
 		A56506F9209B4D7E0002C5D5 /* FEIISegementView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FEIISegementView.h; sourceTree = "<group>"; };
 		A56506FA209B4D7E0002C5D5 /* FEIISegementView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FEIISegementView.m; sourceTree = "<group>"; };
 		A56506FD209B4F640002C5D5 /* GetSystemDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetSystemDate.h; sourceTree = "<group>"; };
@@ -158,9 +161,19 @@
 			path = Macro;
 			sourceTree = "<group>";
 		};
+		5AF8E39B209C5C1400EDCB6E /* ScrollImgeView */ = {
+			isa = PBXGroup;
+			children = (
+				5AF8E39C209C5DDB00EDCB6E /* WSWScrollView.h */,
+				5AF8E39D209C5DDB00EDCB6E /* WSWScrollView.m */,
+			);
+			path = ScrollImgeView;
+			sourceTree = "<group>";
+		};
 		A56506F8209B4C2F0002C5D5 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				5AF8E39B209C5C1400EDCB6E /* ScrollImgeView */,
 				A565088C209B53030002C5D5 /* Common */,
 				A5650703209B50170002C5D5 /* Gategroy */,
 				A56506FC209B4F640002C5D5 /* DateUtils */,
@@ -316,6 +329,7 @@
 				A56508B3209B53210002C5D5 /* FEIDatabaseManager.m in Sources */,
 				A56508AA209B53210002C5D5 /* pinyin.c in Sources */,
 				A5650717209B50170002C5D5 /* UIViewController+BackButtonHandler.m in Sources */,
+				5AF8E39E209C5DDB00EDCB6E /* WSWScrollView.m in Sources */,
 				A5650716209B50170002C5D5 /* UIView+Util.m in Sources */,
 				A56508AD209B53210002C5D5 /* NetworkUtils.m in Sources */,
 				5A3CEDD4209B052100933957 /* ViewController.m in Sources */,

@@ -1,13 +1,14 @@
+////
+////  Account.m
+////  dploffice
+////
+////  Created by shine-team1 on 16/3/22.
+////  Copyright © 2016年 com. All rights reserved.
+////
 //
-//  Account.m
-//  dploffice
+//#import "Account.h"
 //
-//  Created by shine-team1 on 16/3/22.
-//  Copyright © 2016年 com. All rights reserved.
+//@implementation Account
 //
+//@end
 
-#import "Account.h"
-
-@implementation Account
-
-@end
