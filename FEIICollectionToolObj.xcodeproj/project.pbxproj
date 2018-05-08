@@ -13,6 +13,7 @@
 		5A3CEDD9209B052100933957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A3CEDD8209B052100933957 /* Assets.xcassets */; };
 		5A3CEDDC209B052100933957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3CEDDA209B052100933957 /* LaunchScreen.storyboard */; };
 		5A3CEDDF209B052100933957 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3CEDDE209B052100933957 /* main.m */; };
+		5A670B4720A1A27E000646B7 /* FEIIStringSizeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A670B4620A1A27E000646B7 /* FEIIStringSizeTool.m */; };
 		5AF8E39E209C5DDB00EDCB6E /* WSWScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8E39D209C5DDB00EDCB6E /* WSWScrollView.m */; };
 		A56506FB209B4D7E0002C5D5 /* FEIISegementView.m in Sources */ = {isa = PBXBuildFile; fileRef = A56506FA209B4D7E0002C5D5 /* FEIISegementView.m */; };
 		A5650702209B4F640002C5D5 /* GetSystemDate.m in Sources */ = {isa = PBXBuildFile; fileRef = A56506FF209B4F640002C5D5 /* GetSystemDate.m */; };
@@ -51,6 +52,8 @@
 		5A3CEDDD209B052100933957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A3CEDDE209B052100933957 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5A3CEDE7209B0A3B00933957 /* CommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
+		5A670B4520A1A27D000646B7 /* FEIIStringSizeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEIIStringSizeTool.h; sourceTree = "<group>"; };
+		5A670B4620A1A27E000646B7 /* FEIIStringSizeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEIIStringSizeTool.m; sourceTree = "<group>"; };
 		5AF8E39C209C5DDB00EDCB6E /* WSWScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSWScrollView.h; sourceTree = "<group>"; };
 		5AF8E39D209C5DDB00EDCB6E /* WSWScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSWScrollView.m; sourceTree = "<group>"; };
 		A56506F9209B4D7E0002C5D5 /* FEIISegementView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FEIISegementView.h; sourceTree = "<group>"; };
@@ -222,6 +225,8 @@
 		A565088C209B53030002C5D5 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5A670B4520A1A27D000646B7 /* FEIIStringSizeTool.h */,
+				5A670B4620A1A27E000646B7 /* FEIIStringSizeTool.m */,
 				A56508A7209B53200002C5D5 /* Account.h */,
 				A565089A209B531D0002C5D5 /* Account.m */,
 				A5650899209B531D0002C5D5 /* ApiConstant.h */,
@@ -334,6 +339,7 @@
 				A56508AD209B53210002C5D5 /* NetworkUtils.m in Sources */,
 				5A3CEDD4209B052100933957 /* ViewController.m in Sources */,
 				A5650702209B4F640002C5D5 /* GetSystemDate.m in Sources */,
+				5A670B4720A1A27E000646B7 /* FEIIStringSizeTool.m in Sources */,
 				A56508B1209B53210002C5D5 /* CQHTTPTool.m in Sources */,
 				A56508AE209B53210002C5D5 /* NSString+NSDate.m in Sources */,
 				A56508B2209B53210002C5D5 /* ChineseString.m in Sources */,
