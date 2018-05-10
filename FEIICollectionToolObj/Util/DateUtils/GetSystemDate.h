@@ -220,4 +220,7 @@
  */
 + (NSString*)getDateAndTime:(NSString*)dateStr;
 
+//时间戳转时间
++ (NSString *)timestampSwitchTime:(NSInteger)timestamp andFormatter:(NSString *)format;
+
 @end

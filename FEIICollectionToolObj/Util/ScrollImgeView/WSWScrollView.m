@@ -7,7 +7,7 @@
 //
 
 #import "WSWScrollView.h"
-#import "UIImageView+WebCache.h"
+//#import "UIImageView+WebCache.h"
 
 
 
@@ -382,7 +382,7 @@
         imageView.image = self.imageDataSource[imageIndex];
     }else{
         //添加将要出现视图的网络图片
-        [imageView sd_setImageWithURL:[NSURL URLWithString:self.imageDataSource[imageIndex]]];
+//        [imageView sd_setImageWithURL:[NSURL URLWithString:self.imageDataSource[imageIndex]]];
     }
 }
 

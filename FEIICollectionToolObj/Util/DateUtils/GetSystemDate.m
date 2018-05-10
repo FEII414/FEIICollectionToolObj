@@ -596,6 +596,31 @@
     
 }
 
+//时间戳转时间
++ (NSString *)timestampSwitchTime:(long)timestamp andFormatter:(NSString *)format{
+    
+    timestamp = timestamp/1000;
+    
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    
+    [formatter setDateStyle:NSDateFormatterMediumStyle];
+    
+    [formatter setTimeStyle:NSDateFormatterShortStyle];
+    
+    [formatter setDateFormat:format]; // （@"YYYY-MM-dd hh:mm:ss"）----------设置你想要的格式,hh与HH的区别:分别表示12小时制,24小时制
+    
+    NSTimeZone *timeZone = [NSTimeZone timeZoneWithName:@"Asia/Beijing"];
+    
+    [formatter setTimeZone:timeZone];
+    
+    NSDate *confromTimesp = [NSDate dateWithTimeIntervalSince1970:timestamp];
+    
+    NSString *confromTimespStr = [formatter stringFromDate:confromTimesp];
+    
+    return confromTimespStr;
+    
+}
+
 #pragma mark /************************* 懒加载 ***************************/
 -(NSDateFormatter *)dateFformatter
 {
@@ -614,4 +639,7 @@
     }
     return _model;
 }
+
+
+
 @end
