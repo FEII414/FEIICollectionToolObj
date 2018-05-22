@@ -14,6 +14,11 @@
 		5A3CEDDC209B052100933957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3CEDDA209B052100933957 /* LaunchScreen.storyboard */; };
 		5A3CEDDF209B052100933957 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3CEDDE209B052100933957 /* main.m */; };
 		5A670B4720A1A27E000646B7 /* FEIIStringSizeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A670B4620A1A27E000646B7 /* FEIIStringSizeTool.m */; };
+		5A7AD96F20B3F491007AA1F1 /* FEIIExpressionKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7AD96720B3F491007AA1F1 /* FEIIExpressionKeyboard.m */; };
+		5A7AD97020B3F491007AA1F1 /* FEIIExpressionInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7AD96820B3F491007AA1F1 /* FEIIExpressionInputView.m */; };
+		5A7AD97120B3F491007AA1F1 /* FEIIExpressionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7AD96920B3F491007AA1F1 /* FEIIExpressionHelper.m */; };
+		5A7AD97220B3F491007AA1F1 /* EmotionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7AD96B20B3F491007AA1F1 /* EmotionModel.m */; };
+		5A7AD97320B3F491007AA1F1 /* KeyBoardInput.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5A7AD96D20B3F491007AA1F1 /* KeyBoardInput.bundle */; };
 		5AF8E39E209C5DDB00EDCB6E /* WSWScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8E39D209C5DDB00EDCB6E /* WSWScrollView.m */; };
 		A56506FB209B4D7E0002C5D5 /* FEIISegementView.m in Sources */ = {isa = PBXBuildFile; fileRef = A56506FA209B4D7E0002C5D5 /* FEIISegementView.m */; };
 		A5650702209B4F640002C5D5 /* GetSystemDate.m in Sources */ = {isa = PBXBuildFile; fileRef = A56506FF209B4F640002C5D5 /* GetSystemDate.m */; };
@@ -54,6 +59,15 @@
 		5A3CEDE7209B0A3B00933957 /* CommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
 		5A670B4520A1A27D000646B7 /* FEIIStringSizeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEIIStringSizeTool.h; sourceTree = "<group>"; };
 		5A670B4620A1A27E000646B7 /* FEIIStringSizeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEIIStringSizeTool.m; sourceTree = "<group>"; };
+		5A7AD96520B3F491007AA1F1 /* FEIIExpressionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEIIExpressionHelper.h; sourceTree = "<group>"; };
+		5A7AD96620B3F491007AA1F1 /* FEIIExpressionInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEIIExpressionInputView.h; sourceTree = "<group>"; };
+		5A7AD96720B3F491007AA1F1 /* FEIIExpressionKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEIIExpressionKeyboard.m; sourceTree = "<group>"; };
+		5A7AD96820B3F491007AA1F1 /* FEIIExpressionInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEIIExpressionInputView.m; sourceTree = "<group>"; };
+		5A7AD96920B3F491007AA1F1 /* FEIIExpressionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEIIExpressionHelper.m; sourceTree = "<group>"; };
+		5A7AD96B20B3F491007AA1F1 /* EmotionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionModel.m; sourceTree = "<group>"; };
+		5A7AD96C20B3F491007AA1F1 /* EmotionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionModel.h; sourceTree = "<group>"; };
+		5A7AD96D20B3F491007AA1F1 /* KeyBoardInput.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KeyBoardInput.bundle; sourceTree = "<group>"; };
+		5A7AD96E20B3F491007AA1F1 /* FEIIExpressionKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEIIExpressionKeyboard.h; sourceTree = "<group>"; };
 		5AF8E39C209C5DDB00EDCB6E /* WSWScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSWScrollView.h; sourceTree = "<group>"; };
 		5AF8E39D209C5DDB00EDCB6E /* WSWScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSWScrollView.m; sourceTree = "<group>"; };
 		A56506F9209B4D7E0002C5D5 /* FEIISegementView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FEIISegementView.h; sourceTree = "<group>"; };
@@ -164,6 +178,30 @@
 			path = Macro;
 			sourceTree = "<group>";
 		};
+		5A7AD96420B3F491007AA1F1 /* FEIIKeyBoardInput */ = {
+			isa = PBXGroup;
+			children = (
+				5A7AD96520B3F491007AA1F1 /* FEIIExpressionHelper.h */,
+				5A7AD96620B3F491007AA1F1 /* FEIIExpressionInputView.h */,
+				5A7AD96720B3F491007AA1F1 /* FEIIExpressionKeyboard.m */,
+				5A7AD96820B3F491007AA1F1 /* FEIIExpressionInputView.m */,
+				5A7AD96920B3F491007AA1F1 /* FEIIExpressionHelper.m */,
+				5A7AD96A20B3F491007AA1F1 /* Model */,
+				5A7AD96D20B3F491007AA1F1 /* KeyBoardInput.bundle */,
+				5A7AD96E20B3F491007AA1F1 /* FEIIExpressionKeyboard.h */,
+			);
+			path = FEIIKeyBoardInput;
+			sourceTree = "<group>";
+		};
+		5A7AD96A20B3F491007AA1F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A7AD96B20B3F491007AA1F1 /* EmotionModel.m */,
+				5A7AD96C20B3F491007AA1F1 /* EmotionModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5AF8E39B209C5C1400EDCB6E /* ScrollImgeView */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +263,7 @@
 		A565088C209B53030002C5D5 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5A7AD96420B3F491007AA1F1 /* FEIIKeyBoardInput */,
 				5A670B4520A1A27D000646B7 /* FEIIStringSizeTool.h */,
 				5A670B4620A1A27E000646B7 /* FEIIStringSizeTool.m */,
 				A56508A7209B53200002C5D5 /* Account.h */,
@@ -319,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A3CEDDC209B052100933957 /* LaunchScreen.storyboard in Resources */,
+				5A7AD97320B3F491007AA1F1 /* KeyBoardInput.bundle in Resources */,
 				5A3CEDD9209B052100933957 /* Assets.xcassets in Resources */,
 				5A3CEDD7209B052100933957 /* Main.storyboard in Resources */,
 			);
@@ -343,12 +383,16 @@
 				A56508B1209B53210002C5D5 /* CQHTTPTool.m in Sources */,
 				A56508AE209B53210002C5D5 /* NSString+NSDate.m in Sources */,
 				A56508B2209B53210002C5D5 /* ChineseString.m in Sources */,
+				5A7AD97120B3F491007AA1F1 /* FEIIExpressionHelper.m in Sources */,
+				5A7AD97020B3F491007AA1F1 /* FEIIExpressionInputView.m in Sources */,
 				A56506FB209B4D7E0002C5D5 /* FEIISegementView.m in Sources */,
 				5A3CEDDF209B052100933957 /* main.m in Sources */,
 				A5650718209B50170002C5D5 /* NSString+RetbitString.m in Sources */,
 				A565071E209B50170002C5D5 /* NSString+CQFontSzie.m in Sources */,
 				A56508AC209B53210002C5D5 /* Account.m in Sources */,
 				A565071C209B50170002C5D5 /* NSString+Utils.m in Sources */,
+				5A7AD96F20B3F491007AA1F1 /* FEIIExpressionKeyboard.m in Sources */,
+				5A7AD97220B3F491007AA1F1 /* EmotionModel.m in Sources */,
 				A565071A209B50170002C5D5 /* UIImage+Util.m in Sources */,
 				A565071B209B50170002C5D5 /* UIColor+Util.m in Sources */,
 				A56508AF209B53210002C5D5 /* PinyinIndexUtil.m in Sources */,
